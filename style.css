@@ -16,6 +16,9 @@ h1 , h3 {
 
 button {
   background-color: red;
+  text-decoration: none;
+  color: orange;
+  padding: 5px;
 }
 
 a {
@@ -24,3 +27,15 @@ a {
   padding: 5px;
 }
 
+section {
+  color: orange;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
