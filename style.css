@@ -34,12 +34,12 @@ header > section > div {
   align-items: flex-end;
 }
 
-h1 {
+div > h1 {
   font-size: 75px;
   line-height: 40px;
 }
 
-h2 {
+div > h2 {
   line-height: 0px;
 }
 
@@ -48,6 +48,8 @@ nav {
   justify-content: left;
   padding-left: 150px;
 }
+
+/* All Buttons */
 
 button {
   background-color: black;
@@ -66,7 +68,37 @@ a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-section {
+/* Order Form */
+
+main {
+  padding: 40px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
 }
+
+#order-header {
+  color: orange;
+  font-family: fantasy;
+  background-color: red;
+  padding: 20px;
+  border-end-start-radius: 30%;
+  border-end-end-radius: 30%;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  width: 400px;
+  border-radius: 50%;
+  border-style: dashed;
+  border-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#order-subheaders {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+}
+
