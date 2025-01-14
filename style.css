@@ -2,40 +2,71 @@ body {
   background-color: green;
 }
 
-img {
-  height: 200px;
-  width: 200px;
+header {
+  background-color: red;
+  color: orange;
+  font-family: fantasy;
+  padding: 8px;
+  border-start-end-radius: 50%;
+  border-start-start-radius: 50%;
+  border-end-start-radius: 50%;
+  border-end-end-radius: 50%;
+  border-style: dashed;
+  border-color: white;
+  border-width: 5px;
 }
 
-h1 , h3 {
-  color: orange;
-  background-color: red;
+header > section > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  padding-top: 20px;
+}
+
+header > section {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+header > section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+h1 {
+  font-size: 75px;
+  line-height: 40px;
+}
+
+h2 {
+  line-height: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: left;
+  padding-left: 150px;
 }
 
 button {
-  background-color: red;
+  background-color: black;
   text-decoration: none;
-  color: orange;
-  padding: 5px;
+  font-size: 20px;
+  border-end-start-radius: 30%;
+  border-end-end-radius: 30%;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  padding: 8px;
 }
 
 a {
   text-decoration: none;
   color: orange;
-  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 section {
-  color: orange;
-  background-color: red;
   display: flex;
   justify-content: space-around;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  padding: 15px;
 }
