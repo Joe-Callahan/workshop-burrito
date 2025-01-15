@@ -99,6 +99,27 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 500px;
+  width: 600px;
 }
 
+h3 {
+  color: orange;
+  font-family: fantasy;
+  background-color: red;
+  padding: 20px;
+  border-end-start-radius: 30%;
+  border-end-end-radius: 30%;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  width: 200px;
+  border-radius: 50%;
+  border-style: dashed;
+  border-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+section > div > div {
+  display: flex;
+  flex-direction: column;
+}
